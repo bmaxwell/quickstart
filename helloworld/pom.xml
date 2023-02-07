@@ -198,6 +198,9 @@
                             </layers>
                             <!-- deploys the quickstart on root web context -->
                             <runtimeName>ROOT.war</runtimeName>
+                            <image>
+                                  <docker-binary>podman</docker-binary>
+                            </image>
                         </configuration>
                         <executions>
                             <execution>
